@@ -1,0 +1,129 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1000px;
+  font-family: 'Space Mono';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Scope One', serif;
+  /*font-family: 'Slabo 27px', serif;*/
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  opacity: .85;
+  padding: 1em 0 0 0;
+  margin-bottom: 0;
+}
+
+/* header stuff*/
+
+header {
+  margin: 0;
+  top: 0;
+  background-image: url("../images/brandenburg_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+#student-role {
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 5em;
+  color: #fff;
+  opacity: .80;
+}
+
+p {
+  font-family: 'Space Mono', monospace;
+}
+
+a {
+  color: #3D74BE;
+  text-decoration: none;
+}
+
+.section-box {
+  display: inline-block;
+  width: 50%;
+  white-space: normal;
+  padding: 0 16px;
+  vertical-align: top;
+}
+
+.section-container {
+  white-space: nowrap;
+}
+
+.section-box h2 {
+  margin-bottom: 0;
+}
+
+.full-box {
+  width: 100%;
+}
+
+.current {
+  color: #61B5DB;
+}
+
+#contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+/* responsive stuff! */
+
+@media screen and (max-width: 419px){
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 599px){
+  .section-box {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 759px){
+  header {
+    background-image: none;
+  }
+
+  h1 {
+    color: #4B856B;
+    padding: 0;
+  }
+
+  h2, #student-role {
+    color: #3D74BE;
+  }
+
+  #student-role {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 760px){
+  header {
+    background-position: 25% 37%;
+  }
+}

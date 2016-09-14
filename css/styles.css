@@ -15,7 +15,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Scope One', serif;
-  /*font-family: 'Slabo 27px', serif;*/
 }
 
 h1 {
@@ -24,7 +23,7 @@ h1 {
   color: #fff;
   opacity: .85;
   padding: 1em 0 0 0;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 
 /* header stuff*/
@@ -113,12 +112,12 @@ a {
     padding: 0;
   }
 
-  h2, #student-role {
+  h2 {
     color: #3D74BE;
   }
 
   #student-role {
-    padding-bottom: 0;
+    display: none;
   }
 }
 

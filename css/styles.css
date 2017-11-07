@@ -54,6 +54,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  -webkit-padding-start: 20px;
+}
+
 .section-box {
   display: inline-block;
   width: 50%;
